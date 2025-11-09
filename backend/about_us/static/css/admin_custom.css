@@ -1,0 +1,24 @@
+textarea{
+    width: 100%;
+}
+
+.form-group .row{
+    display: block;
+}
+
+.form-group .row .col-sm-7{
+    max-width: none;
+}
+
+#content .row{
+    display: block;
+}
+
+#content .row .parler-language-tabs{
+    border-bottom: none;
+    margin-bottom: 1rem;
+}
+
+#content .row .col-lg-9{
+    max-width: none;
+}
