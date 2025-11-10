@@ -1,5 +1,4 @@
 
-```markdown
 # Backend API — Федеральная Лезгинская Национально-Культурная Автономия (ФЛНКА)
 
 ---
@@ -18,12 +17,11 @@
 - Nginx
 - docker-compose (prod ready)
 - drf-spectacular (OpenAPI Schema)
-- Redis (дополнительно)
 
 ---
 
 # Архитектура Django-проекта
-
+```
 src/
 ├── config/ # глобальные настройки, URL
 ├── about_us/
@@ -37,7 +35,7 @@ src/
 ├── media_library/
 ├── search/
 └── utils/
-
+```
 
 ---
 
@@ -187,8 +185,6 @@ POST /api/feedback-form/
 - Docker + Gunicorn + Nginx
 - Uvicorn (ASGI)
 - PostgreSQL как основная БД
-- Redis для кешей
-- MinIO/S3 для медиа (опционально)
 
 ---
 
